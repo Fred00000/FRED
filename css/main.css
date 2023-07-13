@@ -193,7 +193,7 @@ border-color: #0C1019;
 }
 
 input {
-    padding: 22px;
+    padding: 10px;
     border-radius:  3px;
     background-color: #ffffff;
     margin-bottom: 15px;
@@ -203,12 +203,10 @@ input {
 
 #login-form input[type="submit"] {
     width: 180px;
-	font-size: 30px;
-   	padding-right: 30px;
-    background-color: #ffffff;
-    color: #703535;
+   	background-color: #ffffff;
+    color: #000000;
     border: none;
-    /* transition: all .1s ease-in; */
+    margin-bottom: 5px;
     align-self: center;
 }
 
@@ -217,4 +215,11 @@ input {
     font-weight: lighter;
     text-align: center;
     color: #fff;
+}
+
+#login-form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #0C1019;
+    color: #fff;
+    transition: all .2s ease-in;
 }
