@@ -94,7 +94,6 @@ a { text-decoration: none;}
 }
 
 #hero-image h3 {
-    color: #f1f7ff;
     font-size: 30px;
     text-align: center;
     grid-column: 5/7;
@@ -102,6 +101,7 @@ a { text-decoration: none;}
     border: solid 3px #ddb036;
 }
 
+#hero-image h3 a {  color: #f1f7ff;}
 
 #hero-image h3:hover {
     color: #0C1019;
