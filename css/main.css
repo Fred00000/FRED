@@ -171,3 +171,22 @@ border-color: #0C1019;
 #img1:hover ~ #apex{
     opacity: 50%;
 }
+
+#all-log {
+    background-color: antiquewhite;
+    
+}
+#login-form {
+    max-width: 410px;
+    padding: 20px;
+      background-color: #f2f2f2;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+	grid-column: 4/8;
+	margin-top: 70px;
+}
+
+#login-form form {
+	display: flex;
+	flex-direction: column;
+}
