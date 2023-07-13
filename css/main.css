@@ -146,6 +146,7 @@ a { text-decoration: none;}
 }
 
 .names {
+    display: none;
     color: #fff;
     font-size:45px;
     grid-column: 5/8;
