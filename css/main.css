@@ -177,13 +177,14 @@ border-color: #0C1019;
     
 }
 #login-form {
-    max-width: 410px;
+    width: 410px;
     padding: 20px;
     background-color: #f2f2f2;
     border: 1px solid #ddd;
     border-radius: 5px;
 	grid-column: 4/8;
 	margin-top: 70px;
+    margin-bottom: 100px;
 }
 
 #login-form form {
@@ -215,5 +216,5 @@ input {
     font-size: 12px;
     font-weight: lighter;
     text-align: center;
-
+    color: #fff;
 }
